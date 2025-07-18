@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>College of Engineering Queue Management System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="logo-row">
+      <img src="images/PNC-logo.jpg" alt="PNC Logo" class="logo left-logo" />
+      <img src="images/COE-logo.jpg" alt="COE Logo" class="logo right-logo" />
+    </div>
+    <h1>College of Engineering</h1>
+    <h2>Queue Management System</h2>
+    <p>Welcome! Please click below to start your transaction and get your queue number.</p>
+    <button id="startBtn">Start Transaction</button>
+  </div>
+  <script>
+    document.getElementById('startBtn').onclick = function() {
+      window.location.href = "queue.html";
+    };
+  </script>
+</body>
+</html>
